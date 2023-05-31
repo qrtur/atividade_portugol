@@ -8,21 +8,21 @@ programa {
     real media 
 
     para(inteiro i=0; i<50; i++) {
-        escreva("Digite o nome do aluno desejado: ")
+        escreva("Digite o nome de um dos alunos: ")
         leia(nome[i])
-        escreva("Digite a nota do aluno: ")
+        escreva("Digite a nota do aluno escolhido: ")
         leia(n1[i])
-        escreva("Digite a nota do aluno: ")
+        escreva("Digite a nota do aluno escolhido: ")
         leia(n2[i])
-        escreva("Digite a nota do aluno: ")
+        escreva("Digite a nota do aluno escolhido: ")
         leia(n3[i])
-        escreva("Digite a nota do aluno: ")
+        escreva("Digite a nota do aluno escolhido: ")
         leia(n4[i])
       }
 
     para(inteiro i=0; i<50; i++){
       media = (n1+n2+n3+n4) /4
     }
-    escreva("Sua média é: " +media)
+    escreva("A mÃ©dia Ã©: " +media)
     
 }
